@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.INFO)
 
 with open('config.json') as f:
-    config = json.load(f)
+    config = config.json
 
 
 def welcome(update, context):
