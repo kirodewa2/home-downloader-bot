@@ -1,4 +1,5 @@
-
+ Config = 
+{
   "valid_users": [
     "kirodewal",
     "username_2"
