@@ -9,8 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.INFO)
 
 with open('config.json') as f:
-    config = config.json
-
+    config = 'config.json)
 
 def welcome(update, context):
     if update.message.chat.username not in config["valid_users"]:
