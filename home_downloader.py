@@ -1,7 +1,7 @@
 from telegram.ext import Updater
 from telegram.ext import MessageHandler, CommandHandler, Filters
 
-from modules import incoming_message_action, welcome, config, ls
+from modules import incoming_message_action, welcome, ls
 from config import Config
 
 if __name__ == '__main__':
